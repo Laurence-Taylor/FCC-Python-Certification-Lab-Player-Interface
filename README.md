@@ -4,8 +4,8 @@ Build a Player Interface
 
 Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.
 
-User Stories:
-
+## User Stories:
+```
     You should define an abstract class named Player that inherits from the abc.ABC class.
 
     The Player class should have an __init__ method that sets:
@@ -30,7 +30,6 @@ User Stories:
 
     The Pawn class should implement a concrete level_up method by adding more moves to the moves attribute. 
     The added moves should represent the four diagonal movements (for example, 1 unit down plus 1 unit left).
-
-Note: Standard library modules should be imported without using aliases. Tests related to the Player class will 
-      fail until the Pawn class becomes instantiable.
+```    
+Note: Standard library modules should be imported without using aliases. Tests related to the Player class will fail until the Pawn class becomes instantiable.
 
