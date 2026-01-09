@@ -23,11 +23,14 @@ User Stories:
 
     You should define a Pawn class that inherits from the Player class.
 
-    The Pawn class should use super() to call the parent's __init__ method and then set the moves attribute to a list of tuples representing x, y coordinates.
+    The Pawn class should use super() to call the parent's __init__ method and then set the moves attribute 
+    to a list of tuples representing x, y coordinates.
 
     Each coordinate tuple should represent a movement of 1 unit in the following directions: up, down, left, right.
 
-    The Pawn class should implement a concrete level_up method by adding more moves to the moves attribute. The added moves should represent the four diagonal movements (for example, 1 unit down plus 1 unit left).
+    The Pawn class should implement a concrete level_up method by adding more moves to the moves attribute. 
+    The added moves should represent the four diagonal movements (for example, 1 unit down plus 1 unit left).
 
-Note: Standard library modules should be imported without using aliases. Tests related to the Player class will fail until the Pawn class becomes instantiable.
+Note: Standard library modules should be imported without using aliases. Tests related to the Player class will 
+      fail until the Pawn class becomes instantiable.
 
